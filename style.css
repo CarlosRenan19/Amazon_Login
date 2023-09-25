@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazon-logo {
+    width: 170px;
+    cursor: pointer;
+}
+
+form.login {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.529);
+    border-radius: 10px;
+}
+
+body a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+body a:hover {
+    color: #c45500;
+    text-decoration: 1px underline #c45500;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.login_span {
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.label-email {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#email-input {
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.471);
+    padding: 7px 5px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+#email-input:focus {
+    box-shadow: 0 0 5px 0 rgb(27, 161, 228);
+}
+
+.btn-login {
+    width: 100%;
+    border: none;
+    background-color: #FFD814;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.262);
+    margin-bottom: 2rem;
+}
+
+.btn-login:hover {
+    background-color: #f0c906;
+}
+
+.terms {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.icon-div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icon-div span:nth-child(2) {
+    color: #0066c0;
+    user-select: none;
+}
+
+.icon-div span:nth-child(2):hover {
+    color: #c45500;
+    text-decoration: underline 1px solid #c45500;
+}
+
+.options-details {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    display: none;
+}
+
+.options-details.effect {
+    display: flex;
+}
+
+.material-symbols-outlined {
+    transition: all 0.3s ease-in-out;
+}
+
+.material-symbols-outlined.rotateEffect {
+    transform: rotate(90deg);
+}
+
+.new-user {
+    margin-top: 20px;
+    color: #767676;
+    font-size: 13px;
+    position: relative;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.new-user::after {
+    content: "";
+    width: 350px;
+    height: 1px;
+    background-color: #7676766e;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.create-btn {
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.471);
+    background-color: transparent;
+    width: 350px;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(128, 128, 128, 0.352);
+}
+
+.create-btn:hover {
+    background-color: #F7FAFA;
+    border-color: #D5D9D9;
+}
+
+.links-footer {
+    margin-top: 1.3rem;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+
+.required {
+    color: #555;
+    font-size: 12px;
+    margin-top: 15px;
+}

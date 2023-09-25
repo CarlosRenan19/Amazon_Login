@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="./assets/IMG/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Acessar Amazon</title>
+</head>
+
+<body>
+
+
+    <a href="#"><img class="amazon-logo" src="./assets/IMG/Amazon-Logo.png" alt="amazon-logo"></a>
+
+
+    <form class="login">
+        <span class="login_span">Fazer login</span>
+
+        <div class="input-div">
+            <label class="label-email" for="email-input">Número do celular ou e-mail</label>
+            <input type="email" id="email-input">
+        </div>
+
+        <button class="btn-login">Continuar</button>
+
+        <p class="terms">
+            Ao continuar, você concorda com as Condições de Uso da Amazon. Por favor verifique a <a href="#">Notificação
+                de Privacidade</a>, <a href="#">Notificação de Cookies</a> e a <a href="#">Notificação de Anúncios
+                Baseados em Interesse</a>.
+        </p>
+
+        <div class="help-details" onclick="openOptions()">
+            <div class="icon-div">
+                <span class="material-symbols-outlined">
+                    arrow_right
+                </span>
+                <span>Precisa de ajuda?</span>
+            </div>
+            <div class="options-details">
+                <a href="#">Esqueci a senha</a>
+                <a href="#">Outros problemas com o acesso</a>
+            </div>
+        </div>
+    </form>
+
+    <span class="new-user">Novo na Amazon?</span>
+
+    <button class="create-btn">Criar sua conta da Amazon</button>
+
+    <div class="links-footer">
+        <a href="#">Condições de Uso</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Cookies</a>
+        <a href="#">Anúncios Baseados em Interesses</a>
+    </div>
+
+    <span class="required">© 2021-2023 Amazon.com, Inc. ou suas afiliadas</span>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
